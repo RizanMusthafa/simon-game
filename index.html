@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Simon Game</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="game-board">
+      <div id="green" class="light"></div>
+      <div id="red" class="light"></div>
+      <div id="blue" class="light"></div>
+      <div id="yellow" class="light"></div>
+    </div>
+    <div id="switch-board">
+      <div id="score-display">--</div>
+      <div class="btn-box">
+        <button id="start-btn"></button>
+        <label>Start</label>
+      </div>
+      <label for="strick"><span class="chk-btn"></span>Strick</label>
+      <input type="checkbox" id="strick">
+      <label for="off">Off</label>
+      <span class="chk-btn"></span>
+      <label for="on">On</label>
+      <input type="radio" id="off" name="on-off" checked="true" />
+      <input type="radio" id="on" name="on-off" />
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
